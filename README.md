@@ -6,8 +6,9 @@ Please contribute!
 
 To load the rules in cPanel:
 
-1. Download the rules to your modsecurity configuraiton folder (Default in cPanel /usr/local/apache/conf):<br> 
+1. Download the rules to your modsecurity configuraiton folder (Default in cPanel /usr/local/apache/conf):<br>
+```text
 git clone https://github.com/wrender/modsecurity-whitelist-apps
-
+``` 
 2. Include the rules in your modsec2.user.conf file
 
