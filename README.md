@@ -6,22 +6,22 @@ Please contribute!
 
 <h2>To load the rules in cPanel:</h2>
 
-Download the rules to your modsecurity configuraiton folder (Default in cPanel /usr/local/apache/conf):<br>
+Download the rules to your modsecurity configuraiton folder (Default in cPanel /usr/local/apache/conf):
 ```text
 cd /usr/local/apache/conf/
 git clone https://github.com/wrender/modsecurity-whitelist-apps
 ``` 
 
-Include the rules in the bottom of your modsec2.user.conf file <br>
+Include the rules in the bottom of your modsec2.user.conf file by editing the file and adding the following include line:
 ``` text
 vim /usr/local/apache/conf/modsec2.user.conf
 ```
-----------------------------------------
 ``` text
+# Add the whitelist files to ModSecurity
 Include /usr/local/apache/conf/modsecurity-whitelist-apps/*.conf
 ```
 
-Restart the web server
+Restart the Web Server:
 ``` text
 service httpd restart
 ``` 
