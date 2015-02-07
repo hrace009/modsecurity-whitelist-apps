@@ -1,6 +1,6 @@
 # modsecurity-whitelist-apps
 
-These configuration files are for disabling certain ModSecurity OWASP CRS 2.2.9 and  3.0.0 rules that cause false positives with certain web applications.
+These configuration files are for disabling certain ModSecurity OWASP CRS 2.2.9 and 3.0.0 and Trustwave Commercial ModSecurity rules that cause false positives with certain web applications.
 
 Please contribute!
 
@@ -21,4 +21,12 @@ Include /usr/local/apache/conf/modsecurity-whitelist-apps/*.conf
 Restart the Web Server:
 ``` text
 service httpd restart
-``` 
+```
+
+---------------------------------
+
+ModSecurity and mod_security are trademarks or registered trademarks of Trustwave Holdings, Inc.
+<br>
+cPanel, WebHost Manager and WHM are registered trademarks of 
+cPanel, Inc.
+<br>
