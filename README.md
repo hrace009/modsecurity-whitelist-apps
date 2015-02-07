@@ -14,9 +14,6 @@ git clone https://github.com/wrender/modsecurity-whitelist-apps
 
 Include the rules in the bottom of your modsec2.user.conf file by editing the file and adding the following include line:
 ``` text
-vim /usr/local/apache/conf/modsec2.user.conf
-```
-``` text
 # Add the whitelist files to ModSecurity
 Include /usr/local/apache/conf/modsecurity-whitelist-apps/*.conf
 ```
