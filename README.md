@@ -2,6 +2,8 @@
 
 These configuration files are for disabling certain ModSecurity OWASP CRS 2.2.9 and 3.0.0 and Trustwave Commercial ModSecurity rules that cause false positives with certain web applications.
 
+Please note that there may still be a lot of false positives.
+
 Please contribute!
 
 <h2>To load the rules in cPanel:</h2>
