@@ -27,8 +27,3 @@ service httpd restart
 
 ---------------------------------
 
-ModSecurity and mod_security are trademarks or registered trademarks of Trustwave Holdings, Inc.
-<br>
-cPanel, WebHost Manager and WHM are registered trademarks of 
-cPanel, Inc.
-<br>
