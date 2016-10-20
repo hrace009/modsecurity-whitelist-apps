@@ -9,7 +9,7 @@ Please contribute!
 <h2>To load the rules in Apache:</h2>
 
 1. Download the rules into a directory on your server. For example: /etc/httpd/conf.d/modsecurity-whitelist-apps
-2. Enabled the rules by adding a ModSecurity include statement to your ModSecurity config file. For example: Include /etc/httpd/conf.d/modsecurity-whitelist-apps/*.conf
+2. Enabled the whitelist by adding a ModSecurity include statement to your ModSecurity config file. For example: Include /etc/httpd/conf.d/modsecurity-whitelist-apps/*.conf
 
 <h2>To load the rules in cPanel Apache:</h2>
 
