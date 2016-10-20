@@ -1,6 +1,6 @@
 # modsecurity-whitelist-apps
 
-These configuration files are for disabling certain ModSecurity OWASP CRS 2.2.9 and 3.0.0 and Trustwave Commercial ModSecurity rules that cause false positives with certain web applications. The goal is to disable any incompatible rules with major web applications like Wordpress and Drupal.
+These configuration files are for disabling certain ModSecurity OWASP CRS 2.2.9 and 3.0.0 and Trustwave Commercial ModSecurity rules that cause false positives with certain web applications. The goal is to disable any incompatible rules with popular web applications like Wordpress and Drupal.
 
 Please note that there may still be a lot of false positives. If you have a public web application to test with, your contributions to this would be appreciated!
 
